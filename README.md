@@ -26,16 +26,17 @@ The total manufacturing lot variance is 62, meeting the design specifications of
 
 ## T-Tests on Suspension Coils
 ### Briefly summarize your interpretation and findings for the t-test results
-        T-test for all Lots
-            All Manufacturing Lots: p-value = .6028, alpha = .05
+
+**T-test for all Lots**
+All Manufacturing Lots: p-value = .6028, alpha = .05
             .60 > .05, which means the total manufacturing lot is not statistically significant from the normal distribution and normality can be                      assumed. The mean falls within the 95% confidence interval.
-        T-test for Lot 1
+T-test for Lot 1
             Lot 1: p-value = 1, alpha = .05
             1 > .05, which means Lot 1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within             the 95% confidence interval.
-        T-test for Lot 2
+T-test for Lot 2
             Lot 2: p-value = .6072, alpha = .05
             .60 > .05, which means Lot 2 is not statistically significant from the normal distribution and normality can be assumed. The mean falls                   within the 95% confidence interval.
-        T-test for Lot 3
+T-test for Lot 3
             Lot 3: p-value = .04168, alpha = .05
             .04 < .05, which means it is statistically significant from the normal distribution and normality cannot be assumed. However, the mean falls             within the 95% confidence interval.
 The overall manufacturing, Lot 1, and Lot 2 show a normal distribution. Therefore, there is not sufficient evidence to reject the null hypothesis, which shows the two means are statistically similar.
