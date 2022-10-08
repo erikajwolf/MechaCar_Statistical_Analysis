@@ -15,11 +15,17 @@ This dataset does predict mpg og MechaCar prototypes effectively. R-squared is .
 
  
 ## Summary Statistics on Suspension Coils
-    The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-            The variance for the total manufacturing lot is 62 < 100, which is within the expected design specifications of staying under 100 PSI. However, when reviewing the data by Lot number, Lot 3 is a large contributing factor to the variance being high. Lot 3 shows a variance of 170 > 100 and does not meet the design specifications. Lot 1 and Lot 2 have significantly lower variance, 1 and 7 respectively.
+
+
+![shot5](shot5.png)
+![shot3](shot3.png)
+
+### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The total manufacturing lot variance is 62, meeting the design specifications of not exceeding 100 pounds per square inch. However, Lot 3 has a high variance of 170, exceeding 100 pounds per square inch ad does not meet the design specifications. Lots 1 and 2 have a lower variance.
+
 
 ## T-Tests on Suspension Coils
-    briefly summarize your interpretation and findings for the t-test results
+### Briefly summarize your interpretation and findings for the t-test results
         T-test for all Lots
             All Manufacturing Lots: p-value = .6028, alpha = .05
             .60 > .05, which means the total manufacturing lot is not statistically significant from the normal distribution and normality can be                      assumed. The mean falls within the 95% confidence interval.
