@@ -26,6 +26,7 @@ The total manufacturing lot variance is 62, meeting the design specifications of
 
 ## T-Tests on Suspension Coils
 ### Briefly summarize your interpretation and findings for the t-test results
+
 ![shot1](shot1.png)
 
 **T-test for all Lots**
@@ -46,7 +47,7 @@ Lot 3: p-value = .04168, alpha = .05
 The overall manufacturing, Lot 1, and Lot 2 show a normal distribution. Therefore, there is not sufficient evidence to reject the null hypothesis, which shows the two means are statistically similar.
 
 ## Study Design: MechaCar vs Competition
-    Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
     - In your description, address the following questions:
     - What metric or metrics are you going to test?
     - What is the null hypothesis or alternative hypothesis?
