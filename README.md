@@ -2,16 +2,17 @@
 
 ## Linear Regression to Predict MPG
 
-Which variable/coefficients provided a non-random amount of variance to hte mpg values in the dataset?
+![shot1](shot1.png)
 
+### Which variable/coefficients provided a non-random amount of variance to hte mpg values in the dataset?
+There non-random amounts of variance provided by the mpg values. 
 
+### Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is not considered to be zero. The multiple linear regression formula for mpg = -.01 + 6.267(vehicle length)+.001(vehicle weight)+.069(spoiler angle)+3.546(ground clearance)-3.411(AWD). This results in a non-zero slope.
 
-    Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-        In summary, vehicle length and ground clearance variables represent non-random amounts of variance as applied to the mpg values.
-    Is the slope of the linear model considered to be zero? Why or why not?
-        The multiple linear regression formula for mpg = -.01 + 6.267(vehicle length)+.001(vehicle weight)+.069(spoiler angle)+3.546(ground clearance)-             3.411(AWD), which results in a non-zero slope.
-    Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-        R-squared is .7149, which is a strong correlation for the dataset and shows the dataset is an effective dataset. However, r-squared is not the only consideration for effectiveness. There may be other variables not included in the dataset contributing to the variation in the mpg.
+### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+This dataset does predict mpg og MechaCar prototypes effectively. R-squared is .7149, a strong correlation. 
+
  
 ## Summary Statistics on Suspension Coils
     The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
